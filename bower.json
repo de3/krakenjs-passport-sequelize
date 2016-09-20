@@ -1,0 +1,21 @@
+{
+  "name": "krakenstarter",
+  "description": "Starter Kit for krakenjs, use passport and sequelize",
+  "main": "index.js",
+  "author": "Edi",
+  "moduleType": [
+    "amd"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.1.16"
+  }
+}
