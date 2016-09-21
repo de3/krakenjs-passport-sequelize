@@ -1,24 +1,17 @@
 'use strict';
 
 
-var LoginModel = require('../../models/login'),
- passport = require('passport'),
- auth = require('../../lib/auth');
+const passport = require('passport');
 
 
 module.exports = function (router) {
-
-    var model = new LoginModel();
-
 
     /**
      * Display the login page. We also want to display any error messages that result from a failed login attempt.
      */
     router.get('/', function (req, res) {
-
         //Include any error messages that come from the login process.
-        model.messages = req.flash('error');
-        res.render('login', model);
+        res.render('login');
     });
 
     /**
