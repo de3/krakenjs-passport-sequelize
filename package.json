@@ -10,6 +10,7 @@
     "all": "npm run build && npm run test"
   },
   "dependencies": {
+    "bcrypt": "^0.8.7",
     "connect-flash": "^0.1.1",
     "construx": "^1.0.0",
     "construx-copier": "^1.0.0",
@@ -18,6 +19,8 @@
     "dust-makara-helpers": "^4.1.2",
     "eslint": "^1.10.3",
     "express": "^4.12.2",
+    "express-validation": "^1.0.1",
+    "joi": "^9.0.4",
     "kraken-js": "^2.0.0",
     "makara": "^2.0.3",
     "mysql": "^2.11.1",
